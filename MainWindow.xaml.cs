@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -23,6 +24,25 @@ namespace NetHW
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void CheckClick(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(addressTextBox.Text))
+            {
+                MessageBox.Show("Host name or IP is not entered");
+                return;
+            }
+            try
+            {
+                var result = Dns.GetHostEntry(addressTextBox.Text);
+                hostNameTextBlock.Text = result.HostName;
+                ipAddressListBox.ItemsSource = result.AddressList.ToList();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show(exception.Message);
+            }
         }
     }
 }

@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:NetHW"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="GhostWhite">
+        <Button Name="Check" Content="Get" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" Width="75" Click="CheckClick"/>
+        <TextBox Name="addressTextBox" HorizontalAlignment="Center" Height="30" Margin="0,125,0,0" TextWrapping="Wrap" Text="" TextAlignment="Center" FontSize="18" VerticalAlignment="Top" Width="180"/>
+        <Label Content="Ip address" FontSize="14" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Height="30" Width="220" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBlock Name="hostNameTextBlock" HorizontalAlignment="Center" Margin="0,280,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="250" TextAlignment="Center" FontSize ="18"/>
+        <ListBox Name="ipAddressListBox" BorderBrush="Ivory" BorderThickness="3" HorizontalAlignment="Center" Height="200" Margin="0,330,0,0" VerticalAlignment="Top" Width="200" />
+
     </Grid>
 </Window>

@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\NetHW\NetHW\bin\Debug\NetHW.exe.config
+C:\Users\admin\source\repos\NetHW\NetHW\bin\Debug\NetHW.exe
+C:\Users\admin\source\repos\NetHW\NetHW\bin\Debug\NetHW.pdb
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\MainWindow.g.cs
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\App.g.cs
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW_MarkupCompile.cache
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW_MarkupCompile.lref
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\MainWindow.baml
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.g.resources
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.Properties.Resources.resources
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.exe
+C:\Users\admin\source\repos\NetHW\NetHW\obj\Debug\NetHW.pdb
